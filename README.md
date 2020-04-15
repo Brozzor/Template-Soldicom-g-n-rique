@@ -1,0 +1,1 @@
+# Template générique pour soldicom
