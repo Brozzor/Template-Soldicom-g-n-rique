@@ -1,13 +1,62 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Template générique Soldicom</title>
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="/css/main.css">
-</head>
-<body>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  </head>
+  <body>
+    <div class="w3-top">
+      <div class="navbar">
+        <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+        <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">BAND</a>
+        <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">TOUR</a>
+        <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+      </div>
+    </div>
+
+    <div class="w3-content" style="max-width: 2000px; margin-top: 46px;">
+      <!-- Carousel -->
+      <div id="slides" class="w3-display-container w3-center" style="display: block;">
+        <img id="img-bg" src="" style="width: 100%;" />
+        <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+          <h3 id="title-bg"></h3>
+          <p id="text-bg"></p>
+        </div>
+      </div>
+      <!-- Carousel end -->
+
+      <!-- About Section -->
+      <div class="w3-content w3-row w3-padding-64" id="about" style="max-width: 1100px; margin-top: 46px;">
+        <div class="w3-col m6 w3-padding-large w3-hide-small">
+          <img src="img/about/cuisinier.jpg" class="w3-round about-img w3-image w3-opacity-min" alt="about-img-soldicom" width="600" height="750" />
+        </div>
+
+        <div class="w3-col m6 w3-padding-large">
+          <h1 class="w3-center">About cuisinier</h1>
+          <br />
+          <h5 class="w3-center">Tradition since 1889</h5>
+          <p class="w3-large">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
+            dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+            Excepteur.
+          </p>
+          <p class="w3-large w3-text-grey w3-hide-medium">
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </p>
+        </div>
+      </div>
+      <!-- About Section end -->
+      <hr />
+
+
+    </div>
+
     <script src="/js/main.js"></script>
-</body>
+  </body>
 </html>

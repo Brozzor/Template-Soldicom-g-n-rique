@@ -1,0 +1,21 @@
+/* Tout droits reservée soldicom */
+
+:root {
+    --navbar-color: #212529;
+    --navbar-color-text: #ffffff;
+}
+
+/* NAVBAR */
+.navbar {
+    color: var(--navbar-color-text)!important;
+    background-color: var(--navbar-color)!important;
+    line-height: 3.1;
+    height: 70px;
+}
+/* NAVBAR END */
+
+/* ABOUT */
+.about-img {
+    margin-top: 3rem;
+}
+/* ABOUT END */
