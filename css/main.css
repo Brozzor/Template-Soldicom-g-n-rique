@@ -29,9 +29,20 @@
   margin-right: auto;
 }
 
-/* NAVBAR */
+/* Background image */
+.bg-img-other-pages {
+  filter: grayscale(80%) blur(10px);
+  max-height: 300px;
+}
+
+.bg-img {
+  background: rgba(0, 0, 0, 0.75);
+}
+/* Background image */
+
+/* FOOTER */
 .footer {
   color: var(--footer-color-text) !important;
   background-color: var(--footer-color) !important;
 }
-/* NAVBAR END */
+/* FOOTER END */
