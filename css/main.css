@@ -1,27 +1,37 @@
 /* Tout droits reservée soldicom */
 
 :root {
-    --navbar-color: #212529;
-    --navbar-color-text: #ffffff;
+  --navbar-color: #212529;
+  --navbar-color-text: #ffffff;
+
+  --footer-color: #212529;
+  --footer-color-text: #ffffff;
 }
 
 /* NAVBAR */
 .navbar {
-    color: var(--navbar-color-text)!important;
-    background-color: var(--navbar-color)!important;
-    line-height: 3.1;
-    height: 70px;
+  color: var(--navbar-color-text) !important;
+  background-color: var(--navbar-color) !important;
+  line-height: 3.1;
+  height: 70px;
 }
 /* NAVBAR END */
 
 /* ABOUT */
 .about-img {
-    margin-top: 3rem;
+  margin-top: 3rem;
 }
 /* ABOUT END */
 
 .separation {
-    width: 40%;
-    margin-left: auto;
-    margin-right: auto;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+/* NAVBAR */
+.footer {
+  color: var(--footer-color-text) !important;
+  background-color: var(--footer-color) !important;
+}
+/* NAVBAR END */
