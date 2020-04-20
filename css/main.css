@@ -6,6 +6,9 @@
 
   --footer-color: #212529;
   --footer-color-text: #ffffff;
+
+  --menus-color: #212529;
+  --menus-color-text: #ffffff;
 }
 
 /* NAVBAR */
@@ -46,3 +49,10 @@
   background-color: var(--footer-color) !important;
 }
 /* FOOTER END */
+
+/* MENUS */
+.menus {
+  color: var(--menus-color-text)!important;
+  background-color: var(--menus-color)!important;
+}
+/* MENUS END */

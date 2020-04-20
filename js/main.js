@@ -29,8 +29,6 @@ let timerCarousel = 5000;
 
 // carousel
 
-carousel();
-
 function carousel(i = 0) {
 
   document.getElementById('img-bg').src = "/img/background/" + background.bgImg[i];
@@ -46,4 +44,20 @@ function carousel(i = 0) {
     setTimeout(`carousel(${i+1})`, timerCarousel);
   }
 
+}
+
+// changement de menus
+// à chaque fois que l'utilisateur clique sur un bouton touts les menus sont fermer et le menu selectionné est ouvert en remplacant l'attribut display none en display block
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+     tablinks[i].className = tablinks[i].className.replace(" menus", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " menus";
 }

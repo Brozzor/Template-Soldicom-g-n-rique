@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Template générique Soldicom</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+    <!-- navbar -->
+    <div class="w3-top" style="position: absolute;">
+        <div class="navbar">
+            <center>
+                <a href="/index.html" class="w3-bar-item w3-button w3-padding-large">Acceuil</a>
+                <a href="/menus.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Nos Menus</a>
+                <a href="/nous.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Nous Trouver</a>
+                <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Livraison</a>
+            </center>
+        </div>
+    </div>
+    <!-- navbar end -->
+
+    <!-- body -->
+    <div class="w3-content" style="max-width: 2000px; margin-top: 46px;">
+        <!-- background -->
+        <div class="w3-display-container w3-center" style="display: block;">
+            <img src="/img/background/allpages.jpg" class="bg-img-other-pages" style="width: 100%;" />
+            <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+                <h3>Nos Menus</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.</p>
+            </div>
+        </div>
+        <!-- background end -->
+
+
+            <div class="w3-content" style="margin-top: 100px;">
+            
+              <div class="w3-row w3-center w3-border w3-border-dark-grey">
+                <a href="javascript:void(0)" onclick="openMenu(event, 'Burger');">
+                  <div class="w3-col s4 tablink w3-padding-large menus">Burgers</div>
+                </a>
+                <a href="javascript:void(0)" onclick="openMenu(event, 'Salades');">
+                  <div class="w3-col s4 tablink w3-padding-large ">Salades</div>
+                </a>
+                <a href="javascript:void(0)" onclick="openMenu(event, 'Pizza');">
+                  <div class="w3-col s4 tablink w3-padding-large ">Pizzas</div>
+                </a>
+              </div>
+          
+              <div id="Pizza" class="w3-container menu w3-padding-32 w3-white" style="display: none;">
+                <h1><b>Margherita</b> <span class="w3-right w3-tag w3-dark-grey w3-round">12.50€</span></h1>
+                <p class="w3-text-grey">Tomates , mozarella et basilic</p>
+                <hr>
+
+                <h1><b>Poulet</b> <span class="w3-right w3-tag w3-dark-grey w3-round">17.00€</span></h1>
+                <p class="w3-text-grey">Tomates , mozarella et basilic</p>
+                <hr>
+
+                <h1><b>4 Fromages</b> <span class="w3-right w3-tag w3-dark-grey w3-round">15.50€</span></h1>
+                <p class="w3-text-grey">Tomates , mozarella et basilic</p>
+                <hr>
+          
+                <h1><b>Hawaienne</b> <span class="w3-right w3-tag w3-dark-grey w3-round">16.50€</span></h1>
+                <p class="w3-text-grey">Tomates , mozarella et basilic</p>
+                <hr>
+          
+                <h1><b>Americaine</b> <span class="w3-right w3-tag w3-dark-grey w3-round">20.00€</span></h1>
+                <p class="w3-text-grey">Tomates , mozarella et basilic</p>
+                <hr>
+          
+                <h1><b>Savoyard</b> <span class="w3-right w3-tag w3-dark-grey w3-round">21.50€</span></h1>
+                <p class="w3-text-grey">Tomates , mozarella et basilic</p>
+              </div>
+          
+              <div id="Salades" class="w3-container menu w3-padding-32 w3-white" style="display: none;">
+                <h1><b>Nicoise</b> <span class="w3-right w3-tag w3-dark-grey w3-round">13.50€</span></h1>
+                <p class="w3-text-grey">Tomates , mozarella et basilic</p>
+                <hr>
+             
+                <h1><b>Mascarpone</b> <span class="w3-right w3-tag w3-dark-grey w3-round">14.50€</span></h1>
+                <p class="w3-text-grey">Tomates , mozarella et basilic</p>
+                <hr>
+                
+                <h1><b>Anglaise</b> <span class="w3-right w3-tag w3-dark-grey w3-round">11.00€</span></h1>
+                <p class="w3-text-grey">Tomates , mozarella et basilic</p>
+                <hr>
+          
+                <h1><b>Americaine</b> <span class="w3-right w3-tag w3-dark-grey w3-round">22.50€</span></h1>
+                <p class="w3-text-grey">Tomates , mozarella et basilic</p>
+              </div>
+          
+          
+              <div id="Burger" class="w3-container menu w3-padding-32 w3-white" style="display: block;">
+                <h1><b>Savoyard</b> <span class="w3-right w3-tag w3-dark-grey w3-round">5.50€</span></h1>
+                <p class="w3-text-grey">steack, salades, tomates, ognons</p>
+                <hr>
+             
+                <h1><b>Montagnard</b> <span class="w3-right w3-tag w3-dark-grey w3-round">5.50€</span></h1>
+                <p class="w3-text-grey">steack, salades, tomates, ognons</p>
+                <hr>
+                
+                <h1><b>SteakHouse</b> <span class="w3-right w3-tag w3-dark-grey w3-round">5.50€</span></h1>
+                <p class="w3-text-grey">steack, salades, tomates, ognons</p>
+                <hr>
+                
+                <h1><b>Double SteakHouse</b> <span class="w3-right w3-tag w3-dark-grey w3-round">5.50€</span></h1>
+                <p class="w3-text-grey">steack, salades, tomates, ognons</p>
+              </div><br>
+          
+            </div>
+          
+
+    </div>
+    <!-- body end -->
+
+    <!-- footer -->
+    <footer class="w3-center footer w3-padding-16">
+        <p>Crée par : <a href="https://soldi.com" target="_blank">Soldicom</a></p>
+    </footer>
+    <!-- footer end -->
+    </div>
+
+    <script src="/js/main.js"></script>
+</body>
+
+</html>
