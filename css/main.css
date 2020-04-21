@@ -56,3 +56,14 @@
   background-color: var(--menus-color)!important;
 }
 /* MENUS END */
+
+/* LIVRAISON */
+.livraison {
+  margin: 5%;
+}
+.livraison-img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+/* LIVRAISON END */
